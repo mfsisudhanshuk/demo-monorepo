@@ -30,3 +30,13 @@ To get started:
 
 ```bash
 pnpm install
+```
+
+3. Run
+```bash
+pnpm run dev
+```
+
+# Screenshot
+
+![Screenshot](https://github.com/user-attachments/assets/8a4f1aec-71fc-40c3-8e27-d7cd02ef7a65)
