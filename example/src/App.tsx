@@ -1,6 +1,6 @@
 import { ChangeEvent, useState } from 'react';
-import { Button } from '@mono/ui';
-import { add } from '@mono/utils';
+import { Button } from '@repo/ui';
+import { add } from '@repo/utils';
 
 function App() {
   const [nums, setNums] = useState({
@@ -22,7 +22,7 @@ function App() {
       <input type="text" value={nums.b} onChange={handleNumChange('b')} />
       <Button
         onClick={() => {
-          console.log(add(Number(nums.a), Number(nums.b)));
+          alert(add(Number(nums.a), Number(nums.b)));
         }}
       >
         Add
